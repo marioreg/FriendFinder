@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/marioreg/FriendFinder/issues"
   },
-  "homepage": "https://github.com/marioreg/FriendFinder#readme"
+  "homepage": "https://github.com/marioreg/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7",
+    "request": "^2.87.0"
+  }
 }

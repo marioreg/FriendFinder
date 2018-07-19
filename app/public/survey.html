@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Friend Finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+   
+
+</head>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<body>
+
+<div class="container">
+
+<h2>Survey Questions</h2>
+<hr class="my-4">
+
+<h3>About you</h3>
+
+<form>
+    <div class="form-group">
+            <label>Name (Required)</label>
+            <input type="text"  id="name" class="form-control">
+            <label>Link to Photo Image (Required)</label>
+            <input type="text"  id="photo" class="form-control">
+    </div>
+
+<h3>Question 1</h3>
+    <h5>Your mind is always buzzing with unexplored ideas and plans.</h5>
+    <div class="form-group col-md-4">
+            <select class="custom-select" id="question1">
+              <option value="">Select an option</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+    </div>
+
+    <h3>Question 2</h3>
+    <h5>Generally speaking, you rely more on your experience than your imagination.</h5>
+    <div class="form-group col-md-4">
+            <select class="custom-select" id="question2">
+              <option value="">Select an option</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+    </div>
+
+    <h3>Question 3</h3>
+    <h5>You find it easy to stay relaxed and focused even when there is some pressure.</h5>
+    <div class="form-group col-md-4">
+            <select class="custom-select" id="question3">
+              <option value="">Select an option</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+    </div>
+
+    <h3>Question 4</h3>
+    <h5>You rarely do something just out of sheer curiosity.</h5>
+    <div class="form-group col-md-4">
+            <select class="custom-select" id="question4">
+              <option value="">Select an option</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+    </div>
+
+    <h3>Question 5</h3>
+    <h5>People can rarely upset you.</h5>
+    <div class="form-group col-md-4">
+            <select class="custom-select" id="question5">
+              <option value="">Select an option</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+    </div>
+
+    <h3>Question 6</h3>
+    <h5>It is often difficult for you to relate to other people’s feelings.</h5>
+    <div class="form-group col-md-4">
+            <select class="custom-select" id="question6">
+              <option value="">Select an option</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+    </div>
+
+    <h3>Question 7</h3>
+    <h5>In a discussion, truth should be more important than people’s sensitivities.</h5>
+    <div class="form-group col-md-4">
+            <select class="custom-select" id="question7">
+              <option value="">Select an option</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+    </div>
+
+    <h3>Question 8</h3>
+    <h5>You rarely get carried away by fantasies and ideas.</h5>
+    <div class="form-group col-md-4">
+            <select class="custom-select" id="question8">
+              <option value="">Select an option</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+    </div>
+
+    <h3>Question 9</h3>
+    <h5>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h5>
+    <div class="form-group col-md-4">
+            <select class="custom-select" id="question9">
+              <option value="">Select an option</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+    </div>
+
+    <h3>Question 10</h3>
+    <h5>You feel more energetic after spending time with a group of people.</h5>
+    <div class="form-group col-md-4">
+            <select class="custom-select" id="question10">
+              <option value="">Select an option</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+        Submit</button>
+
+    <hr class="my-4">
+    <br>
+    <a href="">API Friend List</a> |
+    <a href="">Github Repo</a>
+
+</form>
+
+</div>
+
+<script>
+        $("#submit").on("click", function(event) {
+
+event.preventDefault();
+
+var newFriend = {
+        name: $("#name").val().trim(),
+        photo: $("#photo").val().trim(),
+        scores: [
+                $("#question1").val(),
+                $("#question2").val(),
+                $("#question3").val(),
+                $("#question4").val(),
+                $("#question5").val(),
+                $("#question6").val(),
+                $("#question7").val(),
+                $("#question8").val(),
+                $("#question9").val(),
+                $("#question10").val()
+        ]
+};
+
+console.log(newFriend);
+
+var currentURL = window.location.origin;
+
+console.log(currentURL);
+
+$.post(currentURL + "/api/friends", newFriend, function(data) {
+        alert("Name: " + data.name + " \ln" + "Photo URL: " + data.photo);
+
+		});
+
+        });
+
+
+</script>
+
+
+</body>
+</html>
